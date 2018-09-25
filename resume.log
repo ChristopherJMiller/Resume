@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.5.24)  24 SEP 2018 19:59
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.5.24)  24 SEP 2018 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,24 +695,24 @@ LaTeX Info: Redefining \selectfont on input line 78.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=745.46222pt
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 709.61174pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=709.61174pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-66.59087pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=14.22636pt
-* \marginparwidth=50.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -778,27 +778,27 @@ LaTeX Info: Redefining \nameref on input line 78.
 
  (./resume/education.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 8.
+(Font)              scaled to size 10.95015pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.67863pt on input line 8.
+(Font)              scaled to size 7.67863pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.45398pt on input line 8.
+(Font)              scaled to size 5.45398pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 8.
+(Font)              scaled to size 10.94983pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.6784pt on input line 8.
+(Font)              scaled to size 7.6784pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.45381pt on input line 8.
+(Font)              scaled to size 5.45381pt on input line 7.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 8.
+t line 7.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 8.
+t line 7.
 ) (./resume/skills.tex
-Overfull \hbox (24.9133pt too wide) in alignment at lines 2--12
+Overfull \hbox (8.12617pt too wide) in alignment at lines 2--12
 [] [] 
  []
 
@@ -814,10 +814,10 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 24243 strings out of 493068
- 430150 string characters out of 6138948
- 611750 words of memory out of 5000000
- 27937 multiletter control sequences out of 15000+600000
+ 24244 strings out of 493068
+ 430166 string characters out of 6138948
+ 611872 words of memory out of 5000000
+ 27938 multiletter control sequences out of 15000+600000
  6099 words of font info for 68 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,11n,73p,10386b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
