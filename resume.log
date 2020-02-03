@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2019.11.18)  22 JAN 2020 11:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Arch Linux) (preloaded format=xelatex 2020.1.16)  2 FEB 2020 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,7 +670,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  28128 strings out of 492483
- 507484 string characters out of 6134978
+ 507484 string characters out of 6134979
  756275 words of memory out of 5000000
  32378 multiletter control sequences out of 15000+600000
  534821 words of font info for 81 fonts, out of 8000000 for 9000
