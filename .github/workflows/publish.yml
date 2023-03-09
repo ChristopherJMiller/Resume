@@ -10,5 +10,6 @@ jobs:
           echo "deb [arch=amd64 signed-by=/usr/share/keyrings/prebuilt-mpr-archive-keyring.gpg] https://proget.makedeb.org prebuilt-mpr $(lsb_release -cs)" | sudo tee /etc/apt/sources.list.d/prebuilt-mpr.list
       - name: Install Dependencies
         run: sudo apt-get update && sudo apt-get install -y texlive-xetex just
+      - uses: actions/checkout@v2
       - name: Build Resume
         run: just
