@@ -15,7 +15,18 @@ jobs:
         run: just
       - name: Clone Copy of Publish Branch Locally
         run: git clone -b publish https://github.com/ChristopherJMiller/Resume.git ../Publish
-      - name: Move Payload into New Banch
+      - name: Move Payload into New Branch
         run: mv resume.pdf ../Publish
       - name: Check Work
         run: ls -l ../Publish
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      - name: Commit
+        run: |
+          cd ../Publish
+          git add -A resume.pdf
+          git commit -m "Publish Resume"
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
