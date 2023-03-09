@@ -28,4 +28,8 @@ jobs:
           cd ../Publish
           git add -A resume.pdf
           git commit -m "Publish Resume"
-          git push
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          directory: ../Publish
+          branch: publish
