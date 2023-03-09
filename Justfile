@@ -1,5 +1,3 @@
 
-default: build
-
-build:
+default:
     xelatex resume.tex
