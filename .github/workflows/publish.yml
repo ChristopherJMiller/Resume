@@ -14,8 +14,8 @@ jobs:
       - name: Build Resume
         run: just
       - name: Clone Copy of Publish Branch Locally
-        run: git clone -b publish https://github.com/ChristopherJMiller/Resume.git ..
+        run: git clone -b publish https://github.com/ChristopherJMiller/Resume.git ../Publish
       - name: Move Payload into New Banch
-        run: mv resume.pdf ../Resume
+        run: mv resume.pdf ../Publish
       - name: Check Work
-        run: ls -l ../Resume
+        run: ls -l ../Publish
