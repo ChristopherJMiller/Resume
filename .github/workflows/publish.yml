@@ -17,7 +17,7 @@ jobs:
       - name: Clone Copy of Publish Branch Locally
         run: git clone -b publish https://github.com/ChristopherJMiller/Resume.git ../Publish
       - name: Move Payload into New Branch
-        run: mv result/resume.pdf ../Publish/resume.pdf
+        run: sudo mv result/resume.pdf ../Publish/resume.pdf
       - name: Check Work
         run: ls -l ../Publish
       - name: Configure Git
