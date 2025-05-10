@@ -1,3 +1,0 @@
-
-default:
-    xelatex resume.tex

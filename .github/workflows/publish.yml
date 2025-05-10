@@ -6,19 +6,18 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Makedeb
-        run: |
-          curl -q 'https://proget.makedeb.org/debian-feeds/prebuilt-mpr.pub' | gpg --dearmor | sudo tee /usr/share/keyrings/prebuilt-mpr-archive-keyring.gpg 1> /dev/null
-          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/prebuilt-mpr-archive-keyring.gpg] https://proget.makedeb.org prebuilt-mpr $(lsb_release -cs)" | sudo tee /etc/apt/sources.list.d/prebuilt-mpr.list
-      - name: Install Dependencies
-        run: sudo apt-get update && sudo apt-get install -y texlive-xetex just
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - name: Build Resume
-        run: just
+      - name: Install Nix
+        uses: cachix/install-nix-action@v26
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Build Resume with Nix
+        run: nix build .#defaultPackage.x86_64-linux
       - name: Clone Copy of Publish Branch Locally
         run: git clone -b publish https://github.com/ChristopherJMiller/Resume.git ../Publish
       - name: Move Payload into New Branch
-        run: mv resume.pdf ../Publish
+        run: mv result/resume.pdf ../Publish/resume.pdf
       - name: Check Work
         run: ls -l ../Publish
       - name: Configure Git
