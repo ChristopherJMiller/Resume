@@ -185,8 +185,8 @@
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
+  UprightFont=*-Light,
+  ItalicFont=*-LightItalic,
   BoldFont=*-Medium,
   BoldItalicFont=*-MediumItalic,
 ]{Roboto}
